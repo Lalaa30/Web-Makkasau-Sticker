@@ -1,0 +1,30 @@
+.tracking-header {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .tracking-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .order-id {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 576px) {
+    .tracking-header h1 {
+      font-size: 1.5rem;
+    }
+    
+    .order-id {
+      font-size: 1rem;
+    }
+  }

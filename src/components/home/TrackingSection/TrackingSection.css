@@ -1,0 +1,75 @@
+.tracking-section {
+    background-color: var(--light-bg);
+    padding: 4rem 0;
+}
+
+.tracking-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--light-color);
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.tracking-section-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tracking-section-input {
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background-color: var(--light-bg);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+.tracking-section-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(253, 203, 88, 0.2);
+}
+
+.tracking-section-btn {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 1rem;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tracking-section-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .tracking-container {
+        padding: 2rem;
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .tracking-container {
+        padding: 1.5rem;
+    }
+    
+    .tracking-section-input {
+        padding: 0.8rem 1rem;
+    }
+    
+    .tracking-section-btn {
+        padding: 0.8rem;
+    }
+}

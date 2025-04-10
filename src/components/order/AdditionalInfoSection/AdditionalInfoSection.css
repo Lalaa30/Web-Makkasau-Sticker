@@ -1,0 +1,8 @@
+textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  textarea::placeholder {
+    color: #aab;
+  }

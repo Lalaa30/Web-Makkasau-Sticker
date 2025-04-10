@@ -1,0 +1,28 @@
+/* Global container style */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Page wrapper */
+  .order-page-wrapper {
+    padding: 20px 0 60px;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 0 15px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .order-page-wrapper {
+      padding: 10px 0 40px;
+    }
+  }

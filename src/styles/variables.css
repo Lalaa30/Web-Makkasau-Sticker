@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #0A3D62; /* Biru Tua */
+    --secondary-color: #2C3E50; /* Abu-abu Gelap */
+    --accent-color: #FDCB58; /* Kuning */
+    --light-color: #FFFFFF; /* Putih */
+    --text-color: #2C3E50; /* Abu-abu Gelap */
+    --background-color: #FFFFFF; /* Putih */
+    --light-bg: #F8F9FA; /* Background abu-abu sangat muda */
+    --border-color: #E9ECEF; /* Border abu-abu muda */
+}

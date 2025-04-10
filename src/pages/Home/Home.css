@@ -1,0 +1,33 @@
+/* Minimal styling for Home page as most styles are in component CSS files */
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add gap between sections if needed */
+main > section:not(:first-child) {
+    margin-top: 0;
+}
+
+/* Alternate section background colors */
+main > section:nth-child(odd) {
+    background-color: var(--light-bg);
+}
+
+main > section:nth-child(even) {
+    background-color: var(--light-color);
+}
+
+/* Override for hero section */
+main > section.hero {
+    margin-top: 0;
+    background-color: transparent;
+}
+
+/* Override for CTA banner */
+main > section.cta-banner {
+    margin-top: 0;
+    margin-bottom: 0;
+}

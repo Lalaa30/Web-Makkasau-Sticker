@@ -1,0 +1,61 @@
+.tracking-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .tracking-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .status-label {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+  }
+  
+  .status-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .status-value.success {
+    color: var(--success-color);
+  }
+  
+  .status-value.processing {
+    color: var(--warning-color);
+  }
+  
+  .status-value.pending {
+    color: var(--accent-color);
+  }
+  
+  .status-value.cancelled {
+    color: var(--danger-color);
+  }
+  
+  .delivery-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  @media (max-width: 992px) {
+    .tracking-summary {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .delivery-date {
+      align-items: flex-start;
+      margin-top: 1rem;
+    }
+  }

@@ -1,0 +1,25 @@
+.login-container {
+  background-color: var(--light-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid var(--border-color);
+
+  /* Tambahan untuk center */
+  margin: 0 auto; /* horizontal center */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering wrapper section (optional for vertical) */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full height for vertical center */
+  padding: 20px; /* optional padding */
+}
