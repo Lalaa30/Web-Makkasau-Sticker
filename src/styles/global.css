@@ -98,8 +98,29 @@ section {
   margin-bottom: 1rem;
 }
 
+.section-desc {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.cta-section {
+  background-color: var(--primary-color);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.cta-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 .section-title {
-  font-size: 3 rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
@@ -118,14 +139,6 @@ section {
   height: 3px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
-
-.section-desc {
-  font-size: 1.1rem;
-  color: var(--text-color);
-  max-width: 700px;
-  margin: 0 auto;
-  opacity: 0.8;
 }
 
 /* Page Title */
@@ -160,17 +173,6 @@ section {
   margin-bottom: 60px;
   position: relative;
   overflow: hidden;
-}
-
-.form-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 5px;
-  height: 100%;
-  background: linear-gradient(to bottom, var(--accent-color), var(--primary-color));
-  border-radius: 3px 0 0 3px;
 }
 
 /* Form Elements */
@@ -255,6 +257,10 @@ input[type="file"]:hover {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  width: 100%;
+  max-width: 200px; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-info {
