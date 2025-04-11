@@ -107,8 +107,6 @@ const PlateInfoSection = ({ formState, handleInputChange }) => {
           <option value="putih">Putih</option>
           <option value="merah">Merah</option>
           <option value="kuning">Kuning</option>
-          <option value="biru">Biru</option>
-          <option value="silver">Silver</option>
           <option value="lainnya">Warna Lainnya</option>
         </select>
       </div>
@@ -139,8 +137,6 @@ const PlateInfoSection = ({ formState, handleInputChange }) => {
           <option value="">-- Pilih Warna Font --</option>
           <option value="putih">Putih</option>
           <option value="hitam">Hitam</option>
-          <option value="kuning">Kuning</option>
-          <option value="merah">Merah</option>
           <option value="silver">Silver</option>
           <option value="lainnya">Warna Lainnya</option>
         </select>

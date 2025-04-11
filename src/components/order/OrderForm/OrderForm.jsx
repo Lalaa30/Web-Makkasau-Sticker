@@ -124,7 +124,7 @@ const OrderForm = () => {
           />
           
           <div className="button-container">
-            <button type="submit" className="btn">Pesan Sekarang</button>
+            <button type="submit" className="btn button-container">Pesan Sekarang</button>
           </div>
         </form>
       </div>

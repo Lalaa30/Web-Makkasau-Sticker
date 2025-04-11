@@ -36,6 +36,7 @@ const SuccessModal = ({ isOpen, orderNumber, onClose, onBackToHome }) => {
           <p>Pesanan Anda telah kami terima dan sedang diproses.</p>
           <p>Tim kami akan menghubungi Anda melalui WhatsApp dalam waktu 24 jam untuk konfirmasi pesanan dan informasi pembayaran.</p>
           <p>Nomor Pesanan: <span className="order-number">{orderNumber}</span></p>
+          <p>Tolong disalin, dicatat, atau screenshoot untuk Melacak Pesanan anda.</p>
         </div>
         <div className="modal-buttons">
           <button className="btn" onClick={onBackToHome}>Kembali ke Beranda</button>
