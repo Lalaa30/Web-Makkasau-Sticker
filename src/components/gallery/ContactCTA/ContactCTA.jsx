@@ -6,12 +6,12 @@ const ContactCTA = () => {
   return (
     <section className="contact-cta">
       <div className="container">
-        <h2 className="cta-title">Ingin Buat Custom Plat Kendaraan?</h2>
+        <h2 className="contact-cta-title">Ingin Buat Custom Plat Kendaraan?</h2>
         <p className="cta-text">
           Hubungi kami sekarang untuk mendapatkan penawaran khusus dan 
           konsultasi gratis tentang custom plat kendaraan sesuai keinginan Anda.
         </p>
-        <Link to="/order" className="btn btn-primary">Buat Pesanan</Link>
+        <Link to="/order" className="btn btn-primary ContactCTA-btn">Buat Pesanan</Link>
       </div>
     </section>
   );

@@ -7,9 +7,9 @@ const CTABanner = () => {
     <section className="cta-banner">
       <div className="container">
         <div className="cta-content">
-          <h2 className="cta-title">Siap Untuk Custom Plat Kendaraan?</h2>
+          <h2 className="cta-title">Siap Untuk memesan Plat Kendaraan?</h2>
           <p className="cta-desc">Hubungi kami sekarang untuk mendapatkan penawaran khusus dan konsultasi gratis tentang kebutuhan custom plat kendaraan Anda</p>
-          <Link to="/order" className="btn btn-primary">Pesan Sekarang</Link>
+          <Link to="/order" className="btn btn-primary cta-btn">Pesan Sekarang</Link>
         </div>
       </div>
     </section>

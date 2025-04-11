@@ -66,7 +66,7 @@ const Gallery = () => {
         </div>
         
         <div style={{textAlign: 'center', marginTop: '3rem'}}>
-          <Link to="/gallery" className="btn btn-primary">Lihat Semua Produk</Link>
+          <Link to="/gallery" className="btn btn-primary gallery-btn">Lihat Semua Produk</Link>
         </div>
       </div>
     </section>

@@ -3,7 +3,7 @@
   }
   
   .section-title {
-    font-size: 20px;
+    font-size: 20px !important;
     margin-bottom: 20px;
     color: #0A3D62;
     border-bottom: none;
